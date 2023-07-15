@@ -1,0 +1,67 @@
+@mixin display-config($display, $direction, $justify, $align,$height){
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align; 
+    height: $height;
+}
+
+.falcon-text{
+    text-align: center;
+}
+.falcon-statistics{
+    @include display-config(flex, row, space-evenly, center,100%);
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    background-color: #000000;
+    .statistic-container{
+        font-size: 3rem;
+        .statistic-number{
+            font-size: 9rem;
+        }
+    }
+}
+.falcon-origin{
+    @include display-config(flex, row, flex-start ,center,100vh);
+    .falcon-text{
+        font-size: 2.5rem;
+        width: 40%;
+        margin: 5rem 5rem;
+    }
+}
+.falcon-components{
+    padding-left: 15rem;
+    @include display-config(flex, column, center, stretch,100vh);
+    .p-component{
+        font-size: 2.5rem;
+    }
+    .title-component{
+        font-size: 3rem;
+    }
+    .body-component{
+        font-size: 2rem;
+    }
+    .table{
+        width: 50%;
+        .table-text,.measurements{
+            background-color: transparent;
+            color:#ffffff;
+        }
+        .table-text{
+            font-size: 2rem;
+        }
+        .measurements{
+            font-size: 1.5rem;
+        }
+    }
+    .component-text{
+        @include display-config(flex, column, center, stretch,100vh);
+        width: 50%;
+    } 
+}
+
+
+
+
+
+

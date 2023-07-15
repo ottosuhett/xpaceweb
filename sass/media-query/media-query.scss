@@ -1,0 +1,304 @@
+@media(max-width:1180px){
+    .main-human{
+        #human-title{
+            font-size: 4.5rem;
+        }
+        .hero{
+            .main-msg-subtitle{
+                font-size: 5rem;
+            }
+        }
+    }
+    #x1-title{
+        font-size: 7rem;
+    }
+    #x1-subtitle{
+        font-size: 5rem;
+    }
+}
+@media(max-width:860px){
+    .main-home{
+        text-align: center;
+    }
+    .falcon-statistics{
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+    .falcon-origin{
+        .falcon-text{ 
+            width: 100%;
+            font-size: 2rem;
+            padding: 2rem 2rem;
+        }
+    }
+    .main-falcon{
+        .hero{
+            #falcon-title{
+                font-size: 7rem; 
+                letter-spacing: 1rem;
+            }
+            #subtitle{
+                font-size: 2.5rem; 
+            }
+        }
+    } 
+    .falcon-components{
+        .component-text{
+            .body-component{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+@media(max-width:720px){
+    #merlin-text{
+        height: 100vh;
+        .body-component,.table-text{
+            font-size: 1.5rem;
+        }
+    }
+    .falcon-components{
+        .component-text{
+            .p-component,.title-component{
+                font-size: 2rem;
+            }
+            .body-component{
+                font-size: 1.8rem;
+            }
+            .table{
+                .table-text,.measurements{
+                    color:#ffffff;
+                }
+                .table-text{
+                    font-size: 1.3rem;
+                }
+                .measurements{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .main-human{
+        #human-title{
+            white-space: normal;
+            font-size: 3.5rem;
+        } 
+    }
+}
+@media(max-width:585px){
+    .container-fluid,.nav-fluid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-home{
+        .hero{
+            #x1-title{
+                font-size: 5rem;
+            }
+            #x1-subtitle{
+                font-size: 3rem;
+            } 
+        }
+    }   
+    .main-human{
+        #human-title{
+            font-size: 4rem;
+        }
+        .hero{
+            .main-msg-subtitle{
+                font-size: 3rem;
+            }
+        }
+        .nav-fluid{
+            .menu-list-container{
+                .menu-item{
+                    color: black;
+                }
+            }
+        }
+    }
+    .hero{
+        text-align: center;
+        align-items: center;
+        .bi-arrow-down{
+            margin-top: 5rem;
+            height: 6rem;
+        }
+    }
+    .container-fluid{
+        padding: 2rem 5rem;
+    }
+    .falcon-statistics{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .falcon-components{
+        .table{
+            width: 70%;
+            .table-text{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .main-falcon{
+        .hero{
+            #falcon-title{
+                font-size: 8rem; 
+                letter-spacing: 1rem;
+            }
+            #subtitle{
+                font-size: 2.5rem; 
+            }
+        }
+    }
+}
+@media(max-width:460px){
+    .hero{
+        .main-msg-subtitle{
+            font-size: 2rem;
+        }
+        .status-msg{
+            font-size: 3rem;
+        }
+        .bi-arrow-down{
+            margin-top: 1rem;
+        }
+        .team-text{
+            font-size: 2.5rem;
+        }
+    }
+    .main-home{
+        .hero{
+            #x1-title{
+                font-size: 5rem;
+                white-space: normal;
+            }
+            #x1-subtitle{
+                font-size: 2rem;
+            }
+        }
+    }
+    .main-falcon{
+        .hero{
+            #falcon-title{
+                font-size: 5rem; 
+                letter-spacing: 1rem;
+            }
+        }
+    }
+    .falcon-origin{
+        .falcon-text{ 
+            font-size: 2rem;
+        }
+    }
+    .falcon-components{
+        .table{
+            margin-top: 1rem;
+            .table-text{
+                font-size: 1.8rem;
+            }
+        }
+        .component-text{
+            width: 80%;
+            .body-component{
+                font-size: 1.6rem;
+            }
+        }
+    } 
+    .main-human{
+        #human-title,.main-msg-subtitle{
+            white-space: normal;
+        }
+        #human-title{
+            font-size: 2.8rem;
+        }
+    }
+}
+@media (max-width: 330px) {
+   .main-human #human-title{
+        font-size: 4rem;
+    }
+    .main-home{
+        .logo-container{
+            width: 8rem;
+            img{
+               margin-top: 5rem; 
+            }
+        }
+    }
+    .hero{
+        #x1-title{
+            font-size: 4rem;
+        }
+        #x1-subtitle{
+            font-size: 3rem;
+        }
+    }
+    .main-falcon{
+        .hero{
+            #falcon-title{
+                font-size: 4rem; 
+                letter-spacing: 1rem;
+            }
+        }
+    }
+    .falcon-components{
+        .table{
+            margin-top: 2rem;
+            .table-text{
+                font-size: 1.5rem;
+            }
+        }
+        .component-text{
+            width: 80%;
+            .body-component{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+@media(max-width:300px){
+    .main-home{
+        .hero{
+            #x1-title{
+                font-size: 3rem;
+            }
+            #x1-subtitle{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .main-home,.main-falcon{
+        .nav-fluid{
+            .logo-container{
+                width: 7rem; 
+            }
+            .menu-list-container{
+                .menu-item{
+                    font-size: 1.2rem;
+                    text-decoration: none;
+                }
+            }   
+        }
+    }
+    .main-falcon{
+        .hero{
+            #falcon-title{
+                font-size: 3rem; 
+                letter-spacing: 1rem;
+            }
+        }
+    }
+    .falcon-origin{
+        .falcon-text{
+            font-size: 1.5rem;
+        }
+    }
+    .main-human #human-title{
+        font-size: 3rem;
+    }
+}

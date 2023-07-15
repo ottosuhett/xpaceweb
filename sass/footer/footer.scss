@@ -1,0 +1,36 @@
+.nav-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding-top: 1rem;
+    .copyright{
+        font-size: 1.5rem;
+        color: #555252;
+    }
+    .footer-item{
+       color: white;
+        &:hover{
+        color: #b9b9b9;
+       }
+    }
+}
+
+
+
+// .nav-footer{
+//     display: flex;
+//     justify-content: center;
+//     background-color: #000000;
+//     padding-top: 1rem;
+//     .copyright{
+//         font-size: 1.5rem;
+//         color: #555252;
+//     }
+//     .footer-item{
+//        color: white;
+//         &:hover{
+//         color: #b9b9b9;
+//        }
+//     }
+    
+// }
