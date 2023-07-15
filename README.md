@@ -24,14 +24,14 @@ You can make changes to the Sass styles, HTML structure, or even add additional 
 To customize the Xpace project, you will need to clone the repository and compile the Sass styles. You can do this by following these steps:
 
 1. Clone the repository using the following command:
-`git clone https://github.com/ottosuhett/xpace-project.git`
+`git clone https://github.com/ottosuhett/xpaceweb.git`
 
 If you want to customize the styles:
 
 2. If you want to customize the styles, navigate to the project folder and open the sass directory. Modify the `.scss` files to make changes to the styles of the application.
 
 3.If you have Node.js installed, you can run the following command in your terminal or command prompt to compile the updated styles:
-`sass --watch sass/style.scss output/style.css`
+`sass --watch sass/style.scss:style.css`
 
 4. Use a live server extension to view the application in your browser.
 
@@ -39,7 +39,7 @@ If you don't have Node.js installed, you can follow these steps to install it:
 
 1. Go to the Node.js website: https://nodejs.org/en/download/ and download the installer for your operating system.
 2. Run the installer and follow the on-screen instructions.
-3. Once Node.js is installed, you can run the sass `sass --watch sass/style.scss output/style.css` command to compile the updated styles.
+3. Once Node.js is installed, you can run the sass `sass --watch sass/style.scss:style.css` command to compile the updated styles.
 
 ## Usage
 - Explore the various sections and pages of the application to learn more about Xpace.
