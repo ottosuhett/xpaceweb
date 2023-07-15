@@ -102,25 +102,25 @@ body {
 }
 
 .main-human {
-  background: url("../../../images/humanFlight/01.png") center/cover no-repeat;
+  background: url("./images/humanFlight/01.png") center/cover no-repeat;
 }
 
 .earth-mission {
-  background: url("../../../images/humanFlight/02.jpg") center/cover no-repeat;
+  background: url("./images/humanFlight/02.jpg") center/cover no-repeat;
   align-items: end;
 }
 
 .station-mission {
-  background: url("../../../images/humanFlight/03.jpg") center/cover no-repeat;
+  background: url("./images/humanFlight/03.jpg") center/cover no-repeat;
 }
 
 .moon-mission {
-  background: url("../../../images/humanFlight/04.jpg") center/cover no-repeat;
+  background: url("./images/humanFlight/04.jpg") center/cover no-repeat;
   align-items: end;
 }
 
 .mars-mission {
-  background: url("../../../images/humanFlight/05.jpg") center/cover no-repeat;
+  background: url("./images/humanFlight/05.jpg") center/cover no-repeat;
 }
 
 .main-human #human-title {
@@ -138,19 +138,19 @@ body {
 }
 
 .main-home {
-  background: url("../../../images/home/01.jpg") center/cover no-repeat;
+  background: url("./images/home/01.jpg") center/cover no-repeat;
 }
 
 .team-x2 {
-  background: url("../../../images/home/02.gif") center/cover no-repeat;
+  background: url("./images/home/02.gif") center/cover no-repeat;
 }
 
 .team-dragon {
-  background: url("../../../images/home/03.jpg") center/cover no-repeat;
+  background: url("./images/home/03.jpg") center/cover no-repeat;
 }
 
 .starship {
-  background: url("../../../images/home/04.jpg") center/cover no-repeat;
+  background: url("./images/home/04.jpg") center/cover no-repeat;
 }
 
 .nav-footer {
@@ -171,36 +171,36 @@ body {
 }
 
 .main-falcon {
-  background: url("../../../images/falcon9/01.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/01.jpg") center/cover no-repeat;
 }
 
 .falcon-origin {
-  background: url("../../../images/falcon9/02.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/02.jpg") center/cover no-repeat;
 }
 
 .first-component {
-  background: url("../../../images/falcon9/03.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/03.jpg") center/cover no-repeat;
 }
 
 .second-component {
-  background: url("../../../images/falcon9/04.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/04.jpg") center/cover no-repeat;
 }
 
 .third-component {
-  background: url("../../../images/falcon9/05.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/05.jpg") center/cover no-repeat;
   height: 100%;
 }
 
 .fourth-component {
-  background: url("../../../images/falcon9/06.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/06.jpg") center/cover no-repeat;
 }
 
 .fifth-component {
-  background: url("../../../images/falcon9/07.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/07.jpg") center/cover no-repeat;
 }
 
 .falcon-merlin {
-  background: url("../../../images/falcon9/08.jpg") center/cover no-repeat;
+  background: url("./images/falcon9/08.jpg") center/cover no-repeat;
   height: 100%;
 }
 
@@ -530,5 +530,3 @@ body {
     font-size: 3rem;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
