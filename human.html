@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo1.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- AOS lib-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Human Space Flight</title>
+</head>
+<body>
+    <div class="container-fluid main main-human ">
+        <nav class="nav-container navbar navbar-light">
+            <div class="nav-fluid">
+                <a class="navbar-brand d-flex justify-content-center alig-items-center" href="index.html">
+                    <div class="logo-container">
+                        <img src="./images/logos/logo3.png"  class="d-inline-block align-text-top img-fluid">
+                    </div>
+                </a>
+                <div class="menu-list-container">
+                    <ul class="menu-list">
+                        <li>
+                            <a href="index.html" class="navbar-brand  menu-item human-item" id="human-item1">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="falcon.html" class="navbar-brand  menu-item human-item" id="human-item2">
+                                FALCON9
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero">
+            <div  data-aos="fade-up" data-aos-duration="2500">
+                <p class="text-white" id="human-title" >
+                    HUMAN SPACE FLIGHT
+                </p>
+                <p class="text-white main-msg-subtitle">LIVE IN SPACE</p>
+            </div>
+            <a class="bi-arrow-down" href="#flights">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg>
+            </a>
+        </section>
+    </div>
+    <section class="container-fluid commercial-flights" id="flights">
+        <p class="commercial-flights-text text-white" data-aos="flip-left" data-aos-duration="1500">
+            SpaceX also offers commercial flights to Earth and lunar orbit.
+        </p>
+    </section>
+    <section class="container-fluid hero earth-mission mission" >
+        <div  data-aos="fade-down" data-aos-duration="2500">
+            <p class="text-white status-msg">MISSION</p>
+            <p class="text-white team-text">EARTH ORBIT</p>
+            <p class="text-white mission-detail">EXPERIENCE THE BLUE PLANET 300KM ABOVE</p>
+            <button type="submit" class="btn btn-outline-light submit-btn">EXPLORE</button> 
+        </div>
+    </section> 
+    <section class="container-fluid hero station-mission mission">
+        <div  data-aos="fade-right" data-aos-duration="2500">
+            <p class="text-white status-msg">MISSION</p>
+            <p class="text-white team-text">SPACE STATION</p>
+            <p class="text-white mission-detail">EXPERIENCE THE BLUE PLANET 300KM ABOVE</p>
+            <button type="submit" class="btn btn-outline-light submit-btn">EXPLORE</button> 
+        </div>
+    </section> 
+    <section class="container-fluid hero moon-mission mission">
+        <div data-aos="fade-up" data-aos-duration="2500">
+            <p class="text-white status-msg">MISSION</p>
+            <p class="text-white team-text">MOON</p>
+            <p class="text-white mission-detail">RETURNING HUMANS TO OUR NEIGHBORING MOON</p>
+            <button type="submit" class="btn btn-outline-light submit-btn">EXPLORE</button> 
+        </div>
+    </section> 
+    <section class="container-fluid hero mars-mission mission">
+        <div data-aos="flip-right" data-aos-duration="2500">
+            <p class="text-white status-msg">MISSION</p>
+            <p class="text-white team-text">MARS AND BEYOND</p>
+            <p class="text-white mission-detail">THE PATH TO BECOMING A MULTIPLANETARY SPECIES</p>
+            <button type="submit" class="btn btn-outline-light submit-btn">EXPLORE</button> 
+        </div>
+    </section> 
+    <footer class="nav-footer">
+        <nav class="nav-fluid">
+            <p class="copyright">OttoSuhett © 2023</p>
+            <div class="menu-list-container">
+                <ul class="menu-list">
+                    <li><a href="https://www.instagram.com/" class="menu-item  footer-item ">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/" class="menu-item footer-item ">YouTube</a></li>
+                    <li><a href="https://twitter.com/" class="menu-item footer-item ">Twitter</a></li>
+                </ul>
+            </div>  
+        </nav>
+    </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

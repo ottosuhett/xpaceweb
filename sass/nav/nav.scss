@@ -1,0 +1,25 @@
+.nav-fluid{
+    display: flex;
+    justify-content: center;
+    .logo-container{
+        width: 8rem; 
+    }
+    .menu-list-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .menu-list{
+            display: flex;
+            text-align: center;
+            gap:2rem;
+            .menu-item{
+                 font-size: 1.5rem;
+                 text-decoration: none;
+                 color: #ffffff;
+            }
+         }
+    }
+}
+
+
+

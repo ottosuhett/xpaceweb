@@ -1,0 +1,14 @@
+.main{
+    height: 100vh;
+    padding: 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .hero{
+        align-items: center;
+        text-align: center;
+    }
+}
+body{
+    overflow-x: hidden;
+}

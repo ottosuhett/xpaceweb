@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 10rem;
+    
+    .team-text{
+        font-size: 4rem;
+    }
+    .submit-btn{
+        font-size: 2rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        width: 15rem;
+        margin-top: 3rem;
+    }
+    .status-msg{
+        font-size: 2rem;
+    }  
+    .main-msg-subtitle{
+        font-size: 5rem;
+    }
+    .bi-arrow-down{
+        margin-top: 3rem;
+        align-self: center;
+        color:white;
+        width: 10rem;
+        height: 5rem;
+        animation: arrow-animation 1s ease-in-out infinite;
+    }
+    @keyframes arrow-animation {
+        from{
+            transform: translateY(-20%);
+        }
+        to{
+            transform:translateY(0);
+        }
+    }
+    #human-title,.main-msg-subtitle{
+        white-space: nowrap;
+    }
+}
+

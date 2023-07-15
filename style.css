@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+}
+
+.nav-fluid {
+  display: flex;
+  justify-content: center;
+}
+.nav-fluid .logo-container {
+  width: 8rem;
+}
+.nav-fluid .menu-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-fluid .menu-list-container .menu-list {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+}
+.nav-fluid .menu-list-container .menu-list .menu-item {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main {
+  height: 100vh;
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .hero {
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding: 3rem 10rem;
+}
+.hero .team-text {
+  font-size: 4rem;
+}
+.hero .submit-btn {
+  font-size: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 15rem;
+  margin-top: 3rem;
+}
+.hero .status-msg {
+  font-size: 2rem;
+}
+.hero .main-msg-subtitle {
+  font-size: 5rem;
+}
+.hero .bi-arrow-down {
+  margin-top: 3rem;
+  align-self: center;
+  color: white;
+  width: 10rem;
+  height: 5rem;
+  animation: arrow-animation 1s ease-in-out infinite;
+}
+@keyframes arrow-animation {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.hero #human-title, .hero .main-msg-subtitle {
+  white-space: nowrap;
+}
+
+#x1-title {
+  font-size: 9rem;
+  white-space: nowrap;
+}
+
+#x1-subtitle {
+  font-size: 5rem;
+}
+
+.main-human {
+  background: url("../../../images/humanFlight/01.png") center/cover no-repeat;
+}
+
+.earth-mission {
+  background: url("../../../images/humanFlight/02.jpg") center/cover no-repeat;
+  align-items: end;
+}
+
+.station-mission {
+  background: url("../../../images/humanFlight/03.jpg") center/cover no-repeat;
+}
+
+.moon-mission {
+  background: url("../../../images/humanFlight/04.jpg") center/cover no-repeat;
+  align-items: end;
+}
+
+.mars-mission {
+  background: url("../../../images/humanFlight/05.jpg") center/cover no-repeat;
+}
+
+.main-human #human-title {
+  font-size: 7rem;
+}
+.main-human .hero {
+  align-items: center;
+  text-align: center;
+}
+.main-human .hero .bi {
+  margin-top: 0.3rem;
+}
+.main-human body {
+  width: 100%;
+}
+
+.main-home {
+  background: url("../../../images/home/01.jpg") center/cover no-repeat;
+}
+
+.team-x2 {
+  background: url("../../../images/home/02.gif") center/cover no-repeat;
+}
+
+.team-dragon {
+  background: url("../../../images/home/03.jpg") center/cover no-repeat;
+}
+
+.starship {
+  background: url("../../../images/home/04.jpg") center/cover no-repeat;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 1rem;
+}
+.nav-footer .copyright {
+  font-size: 1.5rem;
+  color: #555252;
+}
+.nav-footer .footer-item {
+  color: white;
+}
+.nav-footer .footer-item:hover {
+  color: #b9b9b9;
+}
+
+.main-falcon {
+  background: url("../../../images/falcon9/01.jpg") center/cover no-repeat;
+}
+
+.falcon-origin {
+  background: url("../../../images/falcon9/02.jpg") center/cover no-repeat;
+}
+
+.first-component {
+  background: url("../../../images/falcon9/03.jpg") center/cover no-repeat;
+}
+
+.second-component {
+  background: url("../../../images/falcon9/04.jpg") center/cover no-repeat;
+}
+
+.third-component {
+  background: url("../../../images/falcon9/05.jpg") center/cover no-repeat;
+  height: 100%;
+}
+
+.fourth-component {
+  background: url("../../../images/falcon9/06.jpg") center/cover no-repeat;
+}
+
+.fifth-component {
+  background: url("../../../images/falcon9/07.jpg") center/cover no-repeat;
+}
+
+.falcon-merlin {
+  background: url("../../../images/falcon9/08.jpg") center/cover no-repeat;
+  height: 100%;
+}
+
+.falcon-text {
+  text-align: center;
+}
+
+.falcon-statistics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  background-color: #000000;
+}
+.falcon-statistics .statistic-container {
+  font-size: 3rem;
+}
+.falcon-statistics .statistic-container .statistic-number {
+  font-size: 9rem;
+}
+
+.falcon-origin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.falcon-origin .falcon-text {
+  font-size: 2.5rem;
+  width: 40%;
+  margin: 5rem 5rem;
+}
+
+.falcon-components {
+  padding-left: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 100vh;
+}
+.falcon-components .p-component {
+  font-size: 2.5rem;
+}
+.falcon-components .title-component {
+  font-size: 3rem;
+}
+.falcon-components .body-component {
+  font-size: 2rem;
+}
+.falcon-components .table {
+  width: 50%;
+}
+.falcon-components .table .table-text, .falcon-components .table .measurements {
+  background-color: transparent;
+  color: #ffffff;
+}
+.falcon-components .table .table-text {
+  font-size: 2rem;
+}
+.falcon-components .table .measurements {
+  font-size: 1.5rem;
+}
+.falcon-components .component-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 100vh;
+  width: 50%;
+}
+
+.hero #falcon-title {
+  font-size: 9rem;
+  letter-spacing: 3rem;
+}
+.hero #subtitle {
+  font-size: 3rem;
+}
+.hero #falcon-title, .hero #subtitle {
+  color: #340202;
+}
+
+.commercial-flights {
+  background-color: #000000;
+  height: 100%;
+  padding: 2rem 0;
+}
+
+.commercial-flights-text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.mission {
+  font-weight: 800;
+}
+.mission .mission-detail {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1180px) {
+  .main-human #human-title {
+    font-size: 4.5rem;
+  }
+  .main-human .hero .main-msg-subtitle {
+    font-size: 5rem;
+  }
+  #x1-title {
+    font-size: 7rem;
+  }
+  #x1-subtitle {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 860px) {
+  .main-home {
+    text-align: center;
+  }
+  .falcon-statistics {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  .falcon-origin .falcon-text {
+    width: 100%;
+    font-size: 2rem;
+    padding: 2rem 2rem;
+  }
+  .main-falcon .hero #falcon-title {
+    font-size: 7rem;
+    letter-spacing: 1rem;
+  }
+  .main-falcon .hero #subtitle {
+    font-size: 2.5rem;
+  }
+  .falcon-components .component-text .body-component {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 720px) {
+  #merlin-text {
+    height: 100vh;
+  }
+  #merlin-text .body-component, #merlin-text .table-text {
+    font-size: 1.5rem;
+  }
+  .falcon-components .component-text .p-component, .falcon-components .component-text .title-component {
+    font-size: 2rem;
+  }
+  .falcon-components .component-text .body-component {
+    font-size: 1.8rem;
+  }
+  .falcon-components .component-text .table .table-text, .falcon-components .component-text .table .measurements {
+    color: #ffffff;
+  }
+  .falcon-components .component-text .table .table-text {
+    font-size: 1.3rem;
+  }
+  .falcon-components .component-text .table .measurements {
+    font-size: 1.2rem;
+  }
+  .main-human #human-title {
+    white-space: normal;
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 585px) {
+  .container-fluid, .nav-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-home .hero #x1-title {
+    font-size: 5rem;
+  }
+  .main-home .hero #x1-subtitle {
+    font-size: 3rem;
+  }
+  .main-human #human-title {
+    font-size: 4rem;
+  }
+  .main-human .hero .main-msg-subtitle {
+    font-size: 3rem;
+  }
+  .main-human .nav-fluid .menu-list-container .menu-item {
+    color: black;
+  }
+  .hero {
+    text-align: center;
+    align-items: center;
+  }
+  .hero .bi-arrow-down {
+    margin-top: 5rem;
+    height: 6rem;
+  }
+  .container-fluid {
+    padding: 2rem 5rem;
+  }
+  .falcon-statistics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .falcon-components .table {
+    width: 70%;
+  }
+  .falcon-components .table .table-text {
+    font-size: 1.5rem;
+  }
+  .main-falcon .hero #falcon-title {
+    font-size: 8rem;
+    letter-spacing: 1rem;
+  }
+  .main-falcon .hero #subtitle {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 460px) {
+  .hero .main-msg-subtitle {
+    font-size: 2rem;
+  }
+  .hero .status-msg {
+    font-size: 3rem;
+  }
+  .hero .bi-arrow-down {
+    margin-top: 1rem;
+  }
+  .hero .team-text {
+    font-size: 2.5rem;
+  }
+  .main-home .hero #x1-title {
+    font-size: 5rem;
+    white-space: normal;
+  }
+  .main-home .hero #x1-subtitle {
+    font-size: 2rem;
+  }
+  .main-falcon .hero #falcon-title {
+    font-size: 5rem;
+    letter-spacing: 1rem;
+  }
+  .falcon-origin .falcon-text {
+    font-size: 2rem;
+  }
+  .falcon-components .table {
+    margin-top: 1rem;
+  }
+  .falcon-components .table .table-text {
+    font-size: 1.8rem;
+  }
+  .falcon-components .component-text {
+    width: 80%;
+  }
+  .falcon-components .component-text .body-component {
+    font-size: 1.6rem;
+  }
+  .main-human #human-title, .main-human .main-msg-subtitle {
+    white-space: normal;
+  }
+  .main-human #human-title {
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 330px) {
+  .main-human #human-title {
+    font-size: 4rem;
+  }
+  .main-home .logo-container {
+    width: 8rem;
+  }
+  .main-home .logo-container img {
+    margin-top: 5rem;
+  }
+  .hero #x1-title {
+    font-size: 4rem;
+  }
+  .hero #x1-subtitle {
+    font-size: 3rem;
+  }
+  .main-falcon .hero #falcon-title {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+  .falcon-components .table {
+    margin-top: 2rem;
+  }
+  .falcon-components .table .table-text {
+    font-size: 1.5rem;
+  }
+  .falcon-components .component-text {
+    width: 80%;
+  }
+  .falcon-components .component-text .body-component {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 300px) {
+  .main-home .hero #x1-title {
+    font-size: 3rem;
+  }
+  .main-home .hero #x1-subtitle {
+    font-size: 1.5rem;
+  }
+  .main-home .nav-fluid .logo-container, .main-falcon .nav-fluid .logo-container {
+    width: 7rem;
+  }
+  .main-home .nav-fluid .menu-list-container .menu-item, .main-falcon .nav-fluid .menu-list-container .menu-item {
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  .main-falcon .hero #falcon-title {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
+  .falcon-origin .falcon-text {
+    font-size: 1.5rem;
+  }
+  .main-human #human-title {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
